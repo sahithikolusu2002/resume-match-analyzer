@@ -9,21 +9,21 @@ A FastAPI-based application that extracts resume content and analyzes it against
 - Project highlights and learning path suggestions
 
 **🧠 Step-by-Step Guide: Running Resume Analyzer with Ollama + FastAPI + Gradio**<br>
-✅ 1. Install Ollama<br>
+✅ 1. **Install Ollama**<br>
 Ollama lets you run large language models (LLMs) like OpenChat locally.<br>
 Install Ollama: **https://ollama.com/download**<br>
 Download and install for your OS (macOS, Windows, or Linux).
 After installing, make sure ollama is accessible via terminal:
 **ollama --version**
 
-✅ 2. Pull the OpenChat model<br>
+✅ 2. **Pull the OpenChat model**<br>
 Run the following in your terminal:
 **ollama run openchat**<br>
 This will:
 Download the OpenChat model<br>
 Start an interactive shell (you can Ctrl+C to exit after confirming it works)
 
-✅ 3. Run your FastAPI backend<br>
+✅ 3. R**un your FastAPI backend**<br>
 Navigate to your project’s backend/ directory (where main.py is):<br>
 
 **cd project-folder<br>
@@ -32,7 +32,7 @@ This starts the FastAPI server at:
 **📍 http://127.0.0.1:8000**<br>
 Make sure Ollama is still running and listening at http://localhost:11434.
 
-✅ 4. Run the Gradio Frontend UI<br>
+✅ 4. **Run the Gradio Frontend UI**<br>
 In another terminal (still in the backend/ folder), run:
 **python ui.py**<br>
 This will launch the Gradio interface locally. You’ll get a link like:<br>
