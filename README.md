@@ -8,7 +8,7 @@ A FastAPI-based application that extracts resume content and analyzes it against
 - STAR-based interview prep
 - Project highlights and learning path suggestions
 
-🧠 Step-by-Step Guide: Running Resume Analyzer with Ollama + FastAPI + Gradio
+**🧠 Step-by-Step Guide: Running Resume Analyzer with Ollama + FastAPI + Gradio**
 ✅ 1. Install Ollama
 Ollama lets you run large language models (LLMs) like OpenChat locally.
 
