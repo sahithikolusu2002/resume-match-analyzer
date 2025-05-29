@@ -42,4 +42,4 @@ Running on local URL:  **http://127.0.0.1:7860/**
 ollama run openchat — load the LLM<br>
 uvicorn main:app --reload — start API server<br>
 python ui.py — start Gradio UI<br>
-Open the Gradio link → upload your resume + paste job description → receive analy<br>
+Open the Gradio link → upload your resume + paste job description → receive analysis<br>
